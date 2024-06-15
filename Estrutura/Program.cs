@@ -1,4 +1,5 @@
-﻿using UsingCommonReferenceTypes;
+﻿using ConstructingClasses;
+using UsingCommonReferenceTypes;
 using UsingValueTypes;
 
 namespace Estrutura;
@@ -8,11 +9,23 @@ class Program
     static void Main(string[] args)
     {
         // Console.WriteLine("Hello, World!");
+
+        ////Lesson One
         //ValueTypes();
         //LabValueTypes();
 
+        //Lesson Two
         //ComparingBehaviorReferenceAndValueTypes();
-        LabCommonReferenceTypes();
+        //LabCommonReferenceTypes();
+
+        ConstructingClasses();
+    }
+
+    public static void ConstructingClasses()
+    {
+        AulaConstructingClasses constructingClasses = new AulaConstructingClasses();
+        //constructingClasses.DerivedException();
+        constructingClasses.ConsumeGenericType();
     }
 
     //UsingCommonReferenceTypes
