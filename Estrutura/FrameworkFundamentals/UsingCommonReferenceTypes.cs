@@ -161,6 +161,10 @@ public class AulaUsingCommonReferenceTypes()
             {
                 Console.WriteLine(ex.Message);
             }
+            finally
+            {
+                tr.Close();
+            }
         }
         catch (System.IO.FileNotFoundException)
         {
